@@ -5,17 +5,17 @@ import Country from "../assets/capture_app_country.png";
 function Proyectos() {
   return (
     <div name="proyectos">
-      <section className="bg-white dark:bg-gray-900">
+      <section className="bg-white dark:bg-gray-900 mx-auto">
         <div className="py-8 px-4 mx-auto max-w-screen-lg lg:py-16 lg:px-6 ">
           <div className="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
             <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
               Proyectos
             </h2>
           </div>
-          <div className="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2 items-center">
-            <div className="max-w-md w-full bg-white rounded-lg border border-gray-200 hover:bg-gray-700 shadow-md  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700" >
+          <div className="grid gap-8 mb-6 m-auto lg:mb-16 md:grid-cols-2 items-center place-items-center">
+            <div className="max-w-sm bg-white rounded-lg border border-gray-200 hover:bg-gray-100 shadow-md  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700" >
               
-                <img className="rounded-t-lg w-full" src={Ryckmorty} alt="" draggable="false" />
+                <img className="rounded-t-lg object-cover h-48 w-96" src={Ryckmorty} alt="" draggable="false" />
              
               <div className="p-5">
          
@@ -36,7 +36,7 @@ function Proyectos() {
                       className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
                     >
                       <svg
-                        className="w-5 h-5"
+                        className="w-6 h-6"
                         fill="currentColor"
                         viewBox="0 0 24 24"
                         aria-hidden="true"
@@ -56,7 +56,7 @@ function Proyectos() {
                       className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
                     >
                       <svg
-                        className="w-5 h-5"
+                        className="w-6 h-6"
                         fill="currentColor"
                         viewBox="0 0 24 24"
                         aria-hidden="true"
@@ -72,9 +72,9 @@ function Proyectos() {
                 </ul>
               </div>
             </div>
-            <div className="max-w-sm w-full bg-white rounded-lg border border-gray-200 hover:bg-gray-100 shadow-md dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+            <div className="max-w-sm  bg-white rounded-lg border border-gray-200 hover:bg-gray-100 shadow-md dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
            
-                <img className="rounded-t-lg w-full object-fill" src={Country} alt="" draggable="false" />
+                <img className="rounded-t-lg object-cover h-48 w-96" src={Country} alt="" draggable="false" />
               
               <div className="p-5">
            
@@ -97,7 +97,7 @@ function Proyectos() {
      className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
    >
      <svg
-       className="w-5 h-5"
+       className="w-6 h-6"
        fill="currentColor"
        viewBox="0 0 24 24"
        aria-hidden="true"
@@ -117,7 +117,7 @@ function Proyectos() {
      className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
    >
      <svg
-       className="w-5 h-5"
+       className="w-6 h-6"
        fill="currentColor"
        viewBox="0 0 24 24"
        aria-hidden="true"
