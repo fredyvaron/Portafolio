@@ -11,6 +11,7 @@ function Home() {
             src={imageprofolio}
             alt="profile"
             className="rounded-2xl mx-auto w-2/3 md:w-full"
+            draggable="false"
           />
         </div>
         <div className="flex flex-col justify-center h-full">
