@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md'
 function Home() {
   return (
-    <div name="home" className="h-screen w-full bg-white home">
+    <div name="home" className="h-screen w-full bg-white  dark:bg-gray-900 home">
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="small-screen hidden">
           <img
@@ -15,7 +15,7 @@ function Home() {
           />
         </div>
         <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl sm:text-5xl font-bold text-gray-800">
+          <h2 className="text-4xl sm:text-5xl font-bold text-gray-800 dark:text-white">
             Soy un Desarollador Web Full Stack
           </h2>
 {/*           <p className="text-gray-800 py-4 max-w-md text-2xl sm:text-1xl">
@@ -23,8 +23,8 @@ function Home() {
             software. I love to work on web application using technologies like
             React, Tailwind, Next JS and GraphQL.
           </p> */}
-
-          <div className="portfolio-btn py-4">
+<br />
+          <div className="portfolio-btn py-8">
               <Link
             to="proyectos"
             smooth

@@ -12,18 +12,18 @@ function Proyectos() {
               Proyectos
             </h2>
           </div>
-          <div className="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2 justify-center">
-            <div class="max-w-md bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+          <div className="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2 items-center">
+            <div className="max-w-md w-full bg-white rounded-lg border border-gray-200 hover:bg-gray-700 shadow-md  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700" >
               
-                <img class="rounded-t-lg w-full" src={Ryckmorty} alt="" draggable="false" />
+                <img className="rounded-t-lg w-full" src={Ryckmorty} alt="" draggable="false" />
              
-              <div class="p-5">
+              <div className="p-5">
          
-                  <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                  <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                     Rick And Morty
                   </h5>
                   <span className="text-gray-500 dark:text-gray-400">React</span>
-                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 text-justify">
                 La tematica de este proyecto fue obtener la informacion de la
                   api de rick and morty, para realizar busquedas, filtrados
                   desde los endpoints de la api
@@ -72,40 +72,22 @@ function Proyectos() {
                 </ul>
               </div>
             </div>
-            <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+            <div className="max-w-sm w-full bg-white rounded-lg border border-gray-200 hover:bg-gray-100 shadow-md dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
            
-                <img class="rounded-t-lg w-full" src={Country} alt="" draggable="false" />
+                <img className="rounded-t-lg w-full object-fill" src={Country} alt="" draggable="false" />
               
-              <div class="p-5">
+              <div className="p-5">
            
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                     Country
                   </h5>
                   <span className="text-gray-500 dark:text-gray-400">Node, Express, React</span>
                
-                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                <p className="mb-3 font-normal text-gray-700 dark:text-gray-400 text-justify">
                 la tematica de este proyecto ordenar y filtrar los datos traidos de una api
                 y crear diferentes tipos de actividades para cada paises.
                 </p>
-               {/*  <a
-                  href="#"
-                  class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                >
-                  Read more
-                  <svg
-                    aria-hidden="true"
-                    class="ml-2 -mr-1 w-4 h-4"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                      clip-rule="evenodd"
-                    ></path>
-                  </svg>
-                </a> */}
+           
                                 <ul className="flex space-x-4 sm:mt-0">
  
  <li>

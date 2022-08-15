@@ -2,9 +2,11 @@ import React, { useState } from "react";
 import { Navbar, Button } from "flowbite-react";
 import Logo from "../assets/Logo.svg";
 import { Link } from "react-scroll";
+import useDarkMode from '../Hooks/UseDarkMode';
 function Nav() {
+  const [colorTheme, setTheme] = useDarkMode();
   return (
-    <div className="sticky top-0">
+    <div  className="sticky top-0">
       <Navbar fluid={true} rounded={true}>
         <Navbar.Brand href="https://flowbite.com/">
           <img src={Logo} className="mr-3 h-6 sm:h-9" alt="Flowbite Logo" />
@@ -14,7 +16,7 @@ function Nav() {
           </span>
         </Navbar.Brand>
         <div className="flex md:order-2">
-          <Button>
+          <Button onClick={() => setTheme(colorTheme)}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"

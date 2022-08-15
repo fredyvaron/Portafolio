@@ -12,7 +12,7 @@ import Sobremi from './Component/Sobremi'
 
 function App() {
   return (
-  <div className="App">
+  <div className="App dark:bg-gray-900">
     <Nav/>
 
 <Home/>
