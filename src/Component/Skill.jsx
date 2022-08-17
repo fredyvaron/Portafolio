@@ -22,35 +22,35 @@ function Skill() {
             </h2>
             <div className="grid gap-3 mb-6 lg:mb-16 md:grid-cols-5 grid-cols-2 justify-center">
             <div className="block p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-            <img className="w-full" src={Reactsvg} alt="" />
+            <img className="w-full" src={Reactsvg} alt="" draggable="false"/>
 </div>
 <div className="block p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-            <img className="w-full" src={Reduxsvg} alt="" />
+            <img className="w-full" src={Reduxsvg} alt="" draggable="false"/>
             
 </div>
 <div className="block p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-            <img className="w-full" src={Htmlsvg} alt="" />
+            <img className="w-full" src={Htmlsvg} alt="" draggable="false"/>
 </div>
 <div className="block p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-            <img className="w-full" src={Expresvg} alt="" />
+            <img className="w-full" src={Expresvg} alt="" draggable="false"/>
 </div>
 <div className="block p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-            <img className="w-full" src={Cssvg} alt="" />
+            <img className="w-full" src={Cssvg} alt="" draggable="false"/>
 </div>
 <div className="block p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-            <img className="w-full" src={Githubsvg} alt="" />
+            <img className="w-full" src={Githubsvg} alt="" draggable="false"/>
 </div>
 <div className="block p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
             <img className="w-full" src={Bootstarpsvg} alt="" />
 </div>
 <div className="block p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-            <img className="w-full" src={TailwindCssvg} alt="" />
+            <img className="w-full" src={TailwindCssvg} alt="" draggable="false"/>
 </div>
 <div className="block p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-            <img className="w-full" src={Nodesvg} alt="" />
+            <img className="w-full" src={Nodesvg} alt="" draggable="false"/>
 </div>
 <div className="block p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-            <img className="w-full" src={Postgressvg} alt="" />
+            <img className="w-full" src={Postgressvg} alt="" draggable="false"/>
 </div>
             </div>
       </div>

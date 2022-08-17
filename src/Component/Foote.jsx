@@ -12,13 +12,13 @@ function Foote() {
     </span>
     <ul class="flex flex-wrap items-end mt-3 space-x-6  text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
         <li>
-            <a href="https://www.linkedin.com/in/fredyalbertovaronguzman/" target={'_blank'}class="mr-8 hover:underline md:mr-6 "> <img className='w-8 h-8 rounded-md hover:bg-blue-300' src={Linkedinsvg} /></a>
+            <a href="https://www.linkedin.com/in/fredyalbertovaronguzman/" target={'_blank'}class="mr-8 hover:underline md:mr-6 "> <img className='w-8 h-8 rounded-md hover:bg-blue-300' src={Linkedinsvg} draggable="false"/></a>
         </li>
         <li>
-            <a href="https://github.com/fredyvaron" target={'_blank'}class="mr-4 hover:underline md:mr-6"><img className='w-8 h-8 rounded-full hover:bg-blue-300' src={Githubsvg} /></a>
+            <a href="https://github.com/fredyvaron" target={'_blank'}class="mr-4 hover:underline md:mr-6"><img className='w-8 h-8 rounded-full hover:bg-blue-300' src={Githubsvg} draggable="false"/></a>
         </li>
         <li>
-            <a href={Cv} target={'_blank'}class="mr-4 hover:underline md:mr-6"><img className='w-8 h-8 rounded-full hover:bg-blue-300' src={Curriculosvg} /></a>
+            <a href={Cv} target={'_blank'}class="mr-4 hover:underline md:mr-6"><img className='w-8 h-8 rounded-full hover:bg-blue-300' src={Curriculosvg} draggable="false"/></a>
         </li>
 
     </ul>
