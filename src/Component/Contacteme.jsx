@@ -91,7 +91,7 @@ console.log( import.meta.env.VITE_APP_USER_ID)
             </div>
             <button
               type="submit"
-              className="py-3 px-5 text-sm font-medium text-center bg-blue-700 text-white rounded-lg hover:text-white  hover:bg-blue-600   border border-gray-200 shadow-md"
+              className="py-3 px-5 text-sm font-medium text-center bg-blue-700 text-white rounded-lg hover:text-white  hover:bg-blue-800   border border-gray-200 shadow-md"
             >
               Enviar Mensaje
             </button>
