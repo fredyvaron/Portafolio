@@ -8,7 +8,7 @@ function Foote() {
   return (
     <div>
       <footer className="p-4 bg-white rounded-lg shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800">
-    <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2022 <a href="/" className="hover:underline">Fredy Alberto™</a>
+    <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2022 <a href="https://www.linkedin.com/in/fredyalbertovaronguzman/" className="hover:underline">Fredy Alberto™</a>
     </span>
     <ul className="flex flex-wrap items-end mt-3 space-x-6  text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
         <li>
