@@ -3,7 +3,7 @@ import { Footer } from 'flowbite-react'
 import Githubsvg from "../assets/Footer/code-github-hosting-svgrepo-com.svg"
 import Curriculosvg from "../assets/Footer/curriculum-portfolio-svgrepo-com.svg"
 import Linkedinsvg from "../assets/Footer/linkedin-icon-svgrepo-com.svg"
-import Cv from "../assets/Footer/CV-FredyAlbertoVaron-FullStackDeveloper (1).pdf"
+import Cv from "../assets/Footer/Fredy Alberto Varon CV.pdf"
 function Foote() {
   return (
     <div>
